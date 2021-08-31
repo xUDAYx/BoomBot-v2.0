@@ -16,7 +16,7 @@ module.exports = {
     let commands = message.client.commands.array();
  
     let helpEmbed = new MessageEmbed()
-      .setTitle("Harmony Help")
+      .setTitle("BoomBot Help")
       .setAuthor('Click here to invite me!!', 'https://cdn.discordapp.com/attachments/608531899429814283/882241348672040990/raze_bot_disk.gif', 'https://discord.com/api/oauth2/authorize?client_id=818450510343438336&permissions=8&scope=bot')
       .setDescription(`**PREFIX:** \`${PREFIX}\``)
       .setFooter( client.user.username +`Type: ${PREFIX}help <Command>  for more information!`, "https://cdn.discordapp.com/attachments/608531899429814283/882241348672040990/raze_bot_disk.gif")
