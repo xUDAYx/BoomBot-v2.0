@@ -30,12 +30,12 @@ client.on(`ready`, () => {
           if(!member.voice.channel)
           return;
         //if alone 
-        if (member.voice.channel.members.size === 1) 
+        if (member.voice.channel.members.size === 0) 
         { return member.voice.channel.leave(); }
       });
       
 
-      client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "STREAMING",
+      client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "LISTENING",
       url: "https://www.twitch.tv/nocopyrightsounds"});
    
   
