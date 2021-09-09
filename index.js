@@ -36,7 +36,7 @@ client.on(`ready`, () => {
       
 
       client.user.setActivity(`${PREFIX}help | ${client.guilds.cache.size} Server`, { type: "LISTENING",
-      url: "https://www.twitch.tv/nocopyrightsounds"});
+      url: "https://open.spotify.com/track/7v4pPS4A7NgY7bxFA3Etv3?si=b8595d38be2a4b83"});
    
   
       }, (5000));
