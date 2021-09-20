@@ -91,7 +91,7 @@ client.on(`message`, async (message) => {
     const embed = new Discord.MessageEmbed()
     .setColor("#FFF800")
     .setDescription(saymsg)
-    .setFooter("Harmony", client.user.displayAvatarURL())
+    .setFooter("BoomBot", client.user.displayAvatarURL())
     //delete the Command
     message.delete({timeout: 300})
     //send the Message
